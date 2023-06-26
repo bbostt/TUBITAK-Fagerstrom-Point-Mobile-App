@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_1"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="41dp"
+       android:layout_marginEnd="13dp" />
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_2"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="116dp"
+       android:layout_marginEnd="11dp" />
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_3"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="198dp"
+       android:layout_marginEnd="15dp" />
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_4"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_centerVertical="true"
+       android:layout_marginTop="277dp"
+       android:layout_marginEnd="17dp" />
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_5"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="368dp"
+       android:layout_marginEnd="15dp" />
+
+   <Spinner
+       android:id="@+id/main_activity_spinner_6"
+       android:layout_width="169dp"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="446dp"
+       android:layout_marginEnd="12dp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_1"
+       android:layout_width="202dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="6dp"
+       android:layout_marginTop="38dp"
+       android:text="Günün ilk sigarasını sabah uyandıktan ne kadar sonra içersiniz?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_2"
+       android:layout_width="202dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="7dp"
+       android:layout_marginTop="114dp"
+       android:text="Sigara içmenin yasak olduğu yerlerde sigara içmemek sizi zorlar mı?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_3"
+       android:layout_width="202dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="6dp"
+       android:layout_marginTop="199dp"
+       android:text="Günün hangi sigarasından vazgeçmek sizin için daha zordur?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_4"
+       android:layout_width="202dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_centerVertical="true"
+       android:layout_marginStart="6dp"
+       android:layout_marginTop="283dp"
+       android:text="Günde kaç adet sigara içiyorsunuz?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_5"
+       android:layout_width="202dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="5dp"
+       android:layout_marginTop="365dp"
+       android:text="Sabahları günün diğer zamanlarına göre daha fazla sigara içiyor musunuz?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/main_activity_txtSoru_6"
+       android:layout_width="202dp"
+       android:layout_height="60dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="3dp"
+       android:layout_marginTop="445dp"
+       android:text="Yatmanızı gerektirecek kadar hasta olduğunuz zamanlarda da sigara içer misiniz?"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:id="@+id/txtView_puan"
+       android:layout_width="wrap_content"
+       android:layout_height="26dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="144dp"
+       android:layout_marginEnd="158dp"
+       android:layout_marginBottom="64dp"
+       android:hint="Toplam Puan"
+       android:textColor="#D12A2A"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/txtView_sonuc"
+       android:layout_width="105dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="16dp"
+       android:layout_marginBottom="25dp"
+       android:hint="Bağımlılık seviyesi"
+       android:textColor="#FF5722"
+       android:textColorHint="@color/black"
+       android:textStyle="bold|italic" />
+
+   <Button
+       android:id="@+id/btn_goster"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="121dp"
+       android:layout_marginBottom="4dp"
+       android:onClick="bagimlilikGoster"
+       android:text="Bağımlılık Seviyesi Göster"
+       android:textSize="7sp" />
+
+</RelativeLayout>

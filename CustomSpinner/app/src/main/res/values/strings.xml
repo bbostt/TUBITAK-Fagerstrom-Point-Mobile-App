@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CustomSpinner</string>
+    <string-array name="Cevap1List">
+        <item> - </item>
+        <item>İlk 5 dakika içinde</item>
+        <item>6-30 dakika içinde</item>
+        <item>31-60 dakika içinde</item>
+        <item>1 saatten sonra</item>
+    </string-array>
+    <string-array name="Cevap2List">
+        <item> - </item>
+        <item>Evet</item>
+        <item>Hayır</item>
+    </string-array>
+    <string-array name="Cevap3List">
+        <item> - </item>
+        <item>Sabah ilk içilen sigara</item>
+        <item>Diğer zamanlarda içilen sigaralar</item>
+    </string-array>
+    <string-array name="Cevap4List">
+        <item> - </item>
+        <item>31 ve daha fazla</item>
+        <item>21-30 adet</item>
+        <item>11-20 adet</item>
+        <item>10 ve daha az</item>
+    </string-array>
+    <string-array name="Cevap5List">
+        <item> - </item>
+        <item>Evet</item>
+        <item>Hayır</item>
+    </string-array>
+    <string-array name="Cevap6List">
+        <item> - </item>
+        <item>Evet</item>
+        <item>Hayır</item>
+    </string-array>
+
+
+
+        
+</resources>
